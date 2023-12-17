@@ -1,0 +1,25 @@
+{
+  "name": "supa-safe",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun server.ts",
+    "dev": "nodemon server.js",
+    "inspect": "bun --inspect server.ts",
+    "watch": "bun --watch server.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2"
+  }
+}
